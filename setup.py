@@ -13,6 +13,7 @@ setup(name='epostkr',
       long_description=read('README.txt'),
       author='mete0r',
       author_email='mete0r@sarangbang.or.kr',
+      url='https://github.com/mete0r/epostkr',
       entry_points={
           'console_scripts':[
               'epostkr-zipcode = epostkr:find_zipcodes'
